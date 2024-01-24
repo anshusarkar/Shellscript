@@ -32,7 +32,7 @@ echo -e "[-----One more try left-----]\n\n"
 fi
 if [ $i -eq $attempts ]
 then
-echo "Oyasuminasi !"
+echo "Sayonara !"
 fi
 
 done
