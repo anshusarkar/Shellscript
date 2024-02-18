@@ -1,0 +1,1 @@
+Shell Scripting is a scripting language used for command-line interpretation, created for Unix-like operating systems. It is dynamically typed, interpreted, procedural, and serves as a high-level programming language for automating tasks. Its syntax draws inspiration from various Unix utilities and commands, allowing users to efficiently manage and automate system processes.
