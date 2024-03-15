@@ -51,6 +51,12 @@ tree # command get's used to list all the direcory and it's conatins in a from o
 
 # else using > one thime the previously written outputs inside the file wiuld get removed
 
+# Combining two linux commnads using pipes
+
+# Sorting a conatins in a file 
+
+cat names.txt | sort | uniq
+
 
 
 
