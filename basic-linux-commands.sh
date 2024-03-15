@@ -57,6 +57,37 @@ tree # command get's used to list all the direcory and it's conatins in a from o
 
 cat names.txt | sort | uniq
 
+gerp # Get's used to perfrom search 
+
+ps # lists all the system process in the terminal
+
+ps ax # also does the same
+
+# combinng the ps command and grep command the currently working process can be search and can be killed using it's pid
+
+# suppose 
+
+ping www.google.com is running # in system
+
+# if we use 
+ps ax | grep ping 
+
+# we would get the name of the pid through it 
+
+# then using
+
+kill 'pid' # we can kill the process (A program in execution is called a process {you kew it} )
+
+# You knew all of this 
+# but I bet you didn't kew this : 
+
+# after stpoing a commands execution if we pass
+fg # the stoped process would start executing
+
+# for example using this command
+ping ww.google.com # woun't stop pinging unless we press the ctrl +z to stop it
+# but if we use 
+fg # after stoping it it would start executing it once againg
 
 
 
