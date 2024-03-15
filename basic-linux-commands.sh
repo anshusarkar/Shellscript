@@ -37,6 +37,8 @@ ls -l # To list files in a directoy with their read-write permission
 
 mv "filename" "destination.name" # command get's used to move a file to another directory 
 
+mv "old-file-name" "new.filename" # can be used to rename a file 
+
 rm * # get's used to delete all the empty files in a directory 
 
 rm -rf"file-name"  # To delete a file that are not empty
