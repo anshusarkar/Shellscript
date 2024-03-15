@@ -60,7 +60,7 @@ cat names.txt | sort | uniq
 gerp # Get's used to perfrom search and for 
 #searching a something ending with a chracter or benging
 # with a character use * , ? or called "globs" with gerp and with the chracters 
-# placed in the right posion following the glob 
+# placed in the right posion following the glob it's even in a python module
 
 ps # lists all the system process in the terminal
 
