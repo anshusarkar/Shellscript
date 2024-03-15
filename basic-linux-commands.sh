@@ -57,7 +57,10 @@ tree # command get's used to list all the direcory and it's conatins in a from o
 
 cat names.txt | sort | uniq
 
-gerp # Get's used to perfrom search 
+gerp # Get's used to perfrom search and for 
+#searching a something ending with a chracter or benging
+# with a character use * , ? or called "globs" with gerp and with the chracters 
+# placed in the right posion following the glob 
 
 ps # lists all the system process in the terminal
 
@@ -88,6 +91,8 @@ fg # the stoped process would start executing
 ping ww.google.com # woun't stop pinging unless we press the ctrl +z to stop it
 # but if we use 
 fg # after stoping it it would start executing it once againg
+
+free # prints the avaliable sys memory
 
 
 
