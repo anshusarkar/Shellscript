@@ -1,4 +1,6 @@
-#!bin/bash
+##!bin/bash
+
+# Don't esecute it
 
 pwd # To check present working directory
 
@@ -32,4 +34,24 @@ ls -l # To list files in a directoy with their read-write permission
 
 # lots of the command has a -l part they are called flags or delemetrs 
 # to print all the avalable delemeters of a command use the --help of -h with the command to list them
+
+mv "filename" "destination.name" # command get's used to move a file to another directory 
+
+rm * # get's used to delete all the empty files in a directory 
+
+rm -rf"file-name"  # To delete a file that are not empty
+
+rmdir # get's used to delete a directory that's empty though just like the rm command using delemeter -rf a non empty file can be deleted
+
+tree # command get's used to list all the direcory and it's conatins in a from of a tree 
+
+# To save an output of a script or an executable pass > "filename" (without quots) 
+
+./ascript > filename # use >> to append the newly printed msg by the excuable or the program into an exixting file
+
+# else using > one thime the previously written outputs inside the file wiuld get removed
+
+
+
+
 
