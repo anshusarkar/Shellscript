@@ -1,20 +1,28 @@
-Shell Scripting is a scripting language used for command-line interpretation, created for Unix-like operating systems. It is dynamically typed, interpreted, procedural, and serves as a high-level programming language for automating tasks. Its syntax draws inspiration from various Unix utilities and commands, allowing users to efficiently manage and automate system processes.
+Shell Scripting is a scripting language used for command-line interpretation, created for Unix-like operating systems. 
 
-all the codes of python must be run mentioning the bin directory at the top like this 
+It is dynamically typed, interpreted, procedural, and serves as a high-level programming language for automating tasks. 
 
-#!/usr/bin/env python3   (env part is python environment)
+Its syntax draws inspiration from various Unix utilities and commands, allowing users to efficiently manage and automate system processes 
 
-and must be made a system executable using chmod +x which stands for change mode for linux distros
+(All modern linux systems aka linus torvolts unix draws insperation from the unix commands ).
+
+The BASH which is Bourne again shell script is made by Brian fox to replace  Stephen Bourne's Bourne shell (sh) and was inplemented in Linux 
+
+The Bourne shell was the scripting language for Unix and The BASH is for unix 
+
+Just like the codes of python must be run mentioning the bin directory at the top like this 
+
+#!/usr/bin/env python3   (env part is python environment) i.e. hash-bang or she-bang
+
+and must be made a system executable using chmod +x which stands for change mode for linux distros,
 
 after which the script can be run using ./filename
 
-That applies on all scripting languages though the # portion may varry
+the BASH scripts are needed to be informed with same as well 
 
-for example it's
+#!/bin/bash (That's the hashbang for shellscript)
 
-#!bin/bash 
-
-though if not written in script both can done by using
+though if not written in script, both can still be interpreted by using
 
 python3 filename (for python) 
 
