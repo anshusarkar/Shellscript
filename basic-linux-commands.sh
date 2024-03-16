@@ -101,3 +101,7 @@ free # prints the avaliable sys memory
 diff file1-name file2-name # shows the diffrences between two files 
 
 # use -u delemeter with diff to make the output more insightful 
+
+wdiff file1-name file2-name # shows the diffrences between words that are diffrent between two files like diff states the difffrences 
+
+# between two sentences 
