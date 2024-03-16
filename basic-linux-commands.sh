@@ -105,3 +105,13 @@ diff file1-name file2-name # shows the diffrences between two files
 wdiff file1-name file2-name # shows the diffrences between words that are diffrent between two files like diff states the difffrences 
 
 # between two sentences 
+
+# There are some graphical tools present that shows diffrences between two files sunch as 'meld', 'Kdiff3', 'vimdiff' 
+
+# To save the changs made to the system use command
+
+diff -u file1-name file2-name > chnages.diff 
+
+# To patch the changes made to the system use command
+
+patch filename.extension < filename.diff 
