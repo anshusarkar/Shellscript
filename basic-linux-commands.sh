@@ -99,3 +99,5 @@ free # prints the avaliable sys memory
 # The grep stands for :  global regular expression print
 
 diff file1-name file2-name # shows the diffrences between two files 
+
+# use -u delemeter with diff to make the output more insightful 
