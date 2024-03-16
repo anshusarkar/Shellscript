@@ -60,9 +60,9 @@ tree # command get's used to list all the direcory and it's conatins in a from o
 cat names.txt | sort | uniq
 
 gerp # Get's used to perfrom search and for 
-#searching a something ending with a chracter or benging
+# searching a something ending with a chracter or benging
 # with a character use * , ? or called "globs" with gerp and with the chracters 
-# placed in the right posion following the glob it's even in a python module
+# placed in the right posion following the glob it's even in a python module 
 
 ps # lists all the system process in the terminal
 
@@ -96,6 +96,4 @@ fg # after stoping it it would start executing it once againg
 
 free # prints the avaliable sys memory
 
-
-
-
+# The grep stands for :  global regular expression print
