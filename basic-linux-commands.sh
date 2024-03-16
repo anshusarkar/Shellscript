@@ -97,3 +97,5 @@ fg # after stoping it it would start executing it once againg
 free # prints the avaliable sys memory
 
 # The grep stands for :  global regular expression print
+
+diff file1-name file2-name # shows the diffrences between two files 
